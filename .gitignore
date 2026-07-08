@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data (large files — store dataset locally, not in git)
+data/raw/*.csv
+data/raw/*.gz
+data/raw/*.zip
+data/processed/*.csv
+
+# Models (large binary files)
+models/*.pkl
+models/*.joblib
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+.claude/
+
+# Outputs
+outputs/figures/*.png
+outputs/figures/*.pdf
+
+# Logs
+streamlit_*.log
+
+# Docs
+LLM.pdf
+Network_Detection_Steps_Planner.xlsx
